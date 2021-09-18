@@ -3,12 +3,15 @@
 </script>
 
 <script lang="ts">
+    import Header from "$lib/Header.svelte";
     import Section from "$lib/Section.svelte";
 </script>
 
 <svelte:head>
     <title>Welcome to azure.icu</title>
 </svelte:head>
+
+<Header title="Welcome to azure.icu" />
 
 <Section title="Who am I?">
     <p>

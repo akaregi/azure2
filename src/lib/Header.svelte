@@ -1,14 +1,22 @@
-<header>
-    <h1>Welcome to azure.icu</h1>
-</header>
+<script type="ts">
+    export let title: string;
+</script>
+
+<h1>{title}</h1>
 
 <style>
-    header::after {
-        content: "----";
+    h1::after {
+        white-space: pre;
+        content: "\A----";
     }
 
-    header {
+    h1 {
         margin-bottom: 3rem;
-        color: var(--grey);
+    }
+
+    @media screen and (max-width: 768px) {
+        h1 {
+            margin-bottom: 1rem;
+        }
     }
 </style>
