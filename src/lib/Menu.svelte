@@ -3,11 +3,11 @@
 </script>
 
 <nav>
-    <h2 class="wide"><a sveltekit:prefetch href="/">AZURE.ICU</a></h2>
+    <h1 class="wide"><a sveltekit:prefetch href="/">AZURE.ICU</a></h1>
 
-    <h2 class="narrow" on:click={() => (isOpen = !isOpen)}>
+    <h1 class="narrow" on:click={() => (isOpen = !isOpen)}>
         MENU (TOUCH HERE)
-    </h2>
+    </h1>
 
     <ul
         class="menu-items {isOpen ? 'open' : ''}"
@@ -27,14 +27,9 @@
 </nav>
 
 <style>
-    h2 {
+    h1 {
         margin-bottom: 3rem;
         color: var(--grey);
-    }
-
-    h2::after {
-        white-space: pre;
-        content: "\A----";
     }
 
     ul {
@@ -59,7 +54,7 @@
     }
 
     @media screen and (max-width: 768px) {
-        h2 {
+        h1 {
             margin-bottom: 1rem;
         }
 
