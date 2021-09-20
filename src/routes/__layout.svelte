@@ -3,18 +3,18 @@
         props: {
             key: page.path,
         },
-    });
+    })
 </script>
 
 <script lang="ts">
-    import "../css/reset.css";
-    import "../css/app.css";
+    import '../css/reset.css'
+    import '../css/app.css'
 
-    import Footer from "$lib/layout/Footer.svelte";
-    import Menu from "$lib/layout/Menu.svelte";
-    import PageTransition from "$lib/components/PageTransition.svelte";
+    import Footer from '$lib/layout/Footer.svelte'
+    import Menu from '$lib/layout/Menu.svelte'
+    import PageTransition from '$lib/components/PageTransition.svelte'
 
-    export let key: string;
+    export let key: string
 </script>
 
 <div class="wrapper">

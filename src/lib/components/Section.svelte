@@ -1,20 +1,20 @@
 <script lang="ts">
-    export let title: string;
-    export let heading: "1" | "2" | "3" | "4" | "5" | "6";
+    export let title: string
+    export let heading: '1' | '2' | '3' | '4' | '5' | '6'
 </script>
 
 <section class="h{heading}">
-    {#if heading === "1"}
+    {#if heading === '1'}
         <h1>{title}</h1>
-    {:else if heading === "2"}
+    {:else if heading === '2'}
         <h2>{title}</h2>
-    {:else if heading === "3"}
+    {:else if heading === '3'}
         <h3>{title}</h3>
-    {:else if heading === "4"}
+    {:else if heading === '4'}
         <h4>{title}</h4>
-    {:else if heading === "5"}
+    {:else if heading === '5'}
         <h5>{title}</h5>
-    {:else if heading === "6"}
+    {:else if heading === '6'}
         <h6>{title}</h6>
     {/if}
 

@@ -1,6 +1,6 @@
 <script>
-    import { fly } from "svelte/transition";
-    export let refresh = "";
+    import { fly } from 'svelte/transition'
+    export let refresh = ''
 </script>
 
 {#key refresh}

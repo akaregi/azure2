@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Header from "$lib/components/Header.svelte";
+    import Header from '$lib/components/Header.svelte'
 
-    export const prerender = true;
+    export const prerender = true
 </script>
 
 <svelte:head>
