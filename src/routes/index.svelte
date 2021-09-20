@@ -13,7 +13,7 @@
 
 <Header title="Welcome to azure.icu" />
 
-<Section title="Who am I?">
+<Section heading="2" title="Who am I?">
     <p>
         I'm akarregi, as known as regi. I live somewhere in Japan, very near to
         Tokyo.
@@ -25,7 +25,7 @@
     </p>
 </Section>
 
-<Section title="My Projects">
+<Section heading="2" title="My Projects">
     <p>Some projects belong to me.</p>
 
     <ul>
@@ -54,7 +54,7 @@
     </p>
 </Section>
 
-<Section title="Contact">
+<Section heading="2" title="Contact">
     <p>I have various accounts for messaging. Active social networks are:</p>
 
     <ul>
