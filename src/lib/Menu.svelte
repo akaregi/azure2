@@ -14,6 +14,7 @@
         on:click={() => (isOpen = !isOpen)}
     >
         <li><a sveltekit:prefetch href="/">/index</a></li>
+        <li><a sveltekit:prefetch href="/works">/works</a></li>
         <li><a sveltekit:prefetch href="/scaffolding">/posts</a></li>
         <li><a sveltekit:prefetch href="/scaffolding">/photos</a></li>
         <li><a sveltekit:prefetch href="/scaffolding">/misc</a></li>

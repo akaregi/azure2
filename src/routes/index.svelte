@@ -25,35 +25,6 @@
     </p>
 </Section>
 
-<Section heading="2" title="My Projects">
-    <p>Some projects belong to me.</p>
-
-    <ul>
-        <li>
-            <a href="https://social.azure.icu">The Red Resolution</a> for Pleroma.
-        </li>
-        <li>
-            <a href="https://book.azure.icu/">The Red Book</a> for documentation.
-        </li>
-        <li>
-            <a href="https://static.azure.icu/">The Red Vault</a> for archives.
-        </li>
-    </ul>
-
-    <p>
-        The Red Resolution(TRR) is my own Pleroma instance. I'm the principal of
-        TRR. TRR is a single-user instance, so anyone other than me may not
-        join. Follow my account if you make the instance relationship.
-    </p>
-
-    <p>
-        The special project named “INDARIN PARIA”(former to “raipara-rei ryky”;
-        r3) is in progress. Indarin Paria is a constructed language I make. Its
-        comprehensive book will be open to the public in the future. Now this
-        conlang is closed-beta.
-    </p>
-</Section>
-
 <Section heading="2" title="Contact">
     <p>I have various accounts for messaging. Active social networks are:</p>
 

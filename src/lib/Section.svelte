@@ -3,7 +3,7 @@
     export let heading: "1" | "2" | "3" | "4" | "5" | "6";
 </script>
 
-<section>
+<section class="h{heading}">
     {#if heading === "1"}
         <h1>{title}</h1>
     {:else if heading === "2"}
@@ -26,7 +26,6 @@
 <style>
     .content {
         margin-left: 2rem;
-        margin-bottom: 3rem;
     }
 
     @media screen and (max-width: 768px) {
