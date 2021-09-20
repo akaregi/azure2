@@ -1,9 +1,20 @@
+<script lang="ts" context="module">
+    export const load = async ({ page }) => ({
+        props: {
+            key: page.path,
+        },
+    });
+</script>
+
 <script lang="ts">
     import "../css/reset.css";
     import "../css/app.css";
 
-    import Footer from "$lib/Footer.svelte";
-    import Menu from "$lib/Menu.svelte";
+    import Footer from "$lib/layout/Footer.svelte";
+    import Menu from "$lib/layout/Menu.svelte";
+    import PageTransition from "$lib/components/PageTransition.svelte";
+
+    export let key: string;
 </script>
 
 <div class="wrapper">
@@ -13,7 +24,9 @@
 
     <div class="right">
         <main>
-            <slot />
+            <PageTransition refresh={key}>
+                <slot />
+            </PageTransition>
         </main>
 
         <Footer />

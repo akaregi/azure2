@@ -3,8 +3,8 @@
 </script>
 
 <script lang="ts">
-    import Header from "$lib/Header.svelte";
-    import Section from "$lib/Section.svelte";
+    import Header from "$lib/components/Header.svelte";
+    import Section from "$lib/components/Section.svelte";
 </script>
 
 <svelte:head>
