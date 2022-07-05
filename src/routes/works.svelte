@@ -16,7 +16,7 @@
 
     <ul>
         <li>
-            <a href="https://social.azure.icu">The Red Resolution</a> for Pleroma.
+            <a href="https://council.azure.icu">The Red Council</a> for ActivityPub network.
         </li>
         <li>
             <a href="https://book.azure.icu/">The Red Book</a> for documentation.
@@ -28,9 +28,9 @@
     </ul>
 </Section>
 
-<Section heading="3" title="The Red Resolution">
+<Section heading="3" title="The Red Council">
     <p>
-        The Red Resolution(TRR) is my own Pleroma instance. I'm the principal of
+        The Red Council(TRC) is my own misskey instance. I'm the principal of
         TRR. TRR is a single-user instance, so anyone other than me may not
         join. Follow my account if you make the instance relationship.
     </p>

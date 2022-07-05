@@ -1,5 +1,5 @@
 <footer>
-    <p>(C) 2021 Mizuho SHINOHARA. All rights reserved.</p>
+    <p>(C) 2022 akarregi. All rights reserved.</p>
 </footer>
 
 <style>

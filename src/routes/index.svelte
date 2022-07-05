@@ -15,7 +15,7 @@
 
 <Section heading="2" title="Who am I?">
     <p>
-        I'm akarregi, as known as regi. I live somewhere in Japan, very near to
+        I'm akarregi, as known as nanigashi. I live somewhere in Japan, very near to
         Tokyo.
     </p>
 
@@ -29,12 +29,10 @@
     <p>I have various accounts for messaging. Active social networks are:</p>
 
     <ul>
-        <li>Pleroma (@red_resolution@social.azure.icu) for primary.</li>
-        <li>Twitter (@nanigashi_777) for secondary. I check it also.</li>
+        <li>Twitter (@nanigashi_777) for primary..</li>
+        <li>ActivityPub(@nanigashi@council.azure.icu) for secondary.</li>
         <li>Discord for real-time messaging. Active if I'm awake.</li>
     </ul>
-
-    <p>I use Telegram, Matrix, IRC optionally.</p>
 
     <p>If you prefer, there're PGP keys to send some messages securely.</p>
 
