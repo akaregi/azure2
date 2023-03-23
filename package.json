@@ -26,5 +26,7 @@
     "typescript": "^5.0.2"
   },
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "vite-plugin-markdown": "^2.1.0"
+  }
 }
