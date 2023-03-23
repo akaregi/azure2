@@ -25,8 +25,5 @@
     "tslib": "^2.5.0",
     "typescript": "^5.0.2"
   },
-  "type": "module",
-  "dependencies": {
-    "vite-plugin-markdown": "^2.1.0"
-  }
+  "type": "module"
 }
