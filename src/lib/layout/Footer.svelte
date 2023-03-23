@@ -1,14 +1,14 @@
-<footer>
+<footer class="footer">
     <p>(C) 2022 akarregi. All rights reserved.</p>
 </footer>
 
 <style>
-    footer::before {
-        content: "----";
-    }
-
-    footer {
+    .footer {
         margin-top: 3rem;
         color: var(--grey);
+    }
+
+    .footer::before {
+        content: "----";
     }
 </style>

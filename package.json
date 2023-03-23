@@ -12,16 +12,16 @@
   "devDependencies": {
     "@sveltejs/adapter-vercel": "next",
     "@sveltejs/kit": "next",
-    "@types/cookie": "^0.4.1",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "eslint": "^7.32.0",
-    "eslint-plugin-svelte3": "^3.2.1",
-    "svelte": "^3.34.0",
-    "svelte-check": "^2.2.6",
-    "svelte-preprocess": "^4.9.4",
-    "tslib": "^2.3.1",
-    "typescript": "^4.4.3"
+    "@types/cookie": "^0.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "svelte": "^3.57.0",
+    "svelte-check": "^3.1.4",
+    "svelte-preprocess": "^5.0.3",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
   },
   "type": "module",
   "dependencies": {}
