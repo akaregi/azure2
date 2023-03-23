@@ -1,22 +1,22 @@
 <script lang="ts">
-    export let title: string
+  export let title: string;
 </script>
 
-<h1>{title}</h1>
+<h1 class="header">{title}</h1>
 
 <style>
-    h1::after {
-        white-space: pre;
-        content: "\A----";
-    }
+  .header {
+    margin-bottom: 3rem;
+  }
 
-    h1 {
-        margin-bottom: 3rem;
-    }
+  .header::after {
+    white-space: pre;
+    content: "\A----";
+  }
 
-    @media screen and (max-width: 768px) {
-        h1 {
-            margin-bottom: 1rem;
-        }
+  @media screen and (max-width: 768px) {
+    .header {
+      margin-bottom: 1rem;
     }
+  }
 </style>
