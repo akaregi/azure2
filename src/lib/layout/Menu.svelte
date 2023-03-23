@@ -10,9 +10,11 @@
   <ul class="menu-items {isOpen ? 'menu-open' : ''}">
     <li class="menu-item"><a data-sveltekit-preload-data="hover" href="/">/index</a></li>
     <li class="menu-item"><a data-sveltekit-preload-data="hover" href="/works">/works</a></li>
+    <!--
     <li class="menu-item"><a data-sveltekit-preload-data="hover" href="/scaffolding">/posts</a></li>
     <li class="menu-item"><a data-sveltekit-preload-data="hover" href="/scaffolding">/photos</a></li>
     <li class="menu-item"><a data-sveltekit-preload-data="hover" href="/scaffolding">/misc</a></li>
+    -->
   </ul>
 </nav>
 
