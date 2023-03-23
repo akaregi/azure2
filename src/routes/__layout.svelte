@@ -1,11 +1,3 @@
-<script lang="ts" context="module">
-  export const load = async ({ page }) => ({
-    props: {
-      key: page.path,
-    },
-  });
-</script>
-
 <script lang="ts">
   import "../css/reset.css";
   import "../css/app.css";
@@ -15,6 +7,12 @@
   import PageTransition from "$lib/components/PageTransition.svelte";
 
   export let key: string;
+
+  export const load = async ({ page }) => ({
+    props: {
+      key: page.path,
+    },
+  });
 </script>
 
 <div class="wrapper">
